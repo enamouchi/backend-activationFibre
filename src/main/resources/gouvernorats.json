@@ -1,0 +1,219 @@
+{
+  "gouvernorats": [
+    {
+      "name": "Tunis",
+      "delegations": [
+        {
+          "name": "La Marsa",
+          "localites": ["Gammarth", "Sidi Daoud"]
+        },
+        {
+          "name": "Carthage",
+          "localites": ["Amilcar", "Sidi Bou Said"]
+        },
+        {
+          "name": "Bab El Bhar",
+          "localites": ["Bab El Bhar"]
+        },
+        {
+          "name": "Bab Souika",
+          "localites": ["Bab Souika"]
+        },
+        {
+          "name": "Cité El Khadra",
+          "localites": ["Cité El Khadra"]
+        },
+        {
+          "name": "Djebel Jelloud",
+          "localites": ["Djebel Jelloud"]
+        },
+        {
+          "name": "El Kabaria",
+          "localites": ["El Kabaria"]
+        },
+        {
+          "name": "El Menzah",
+          "localites": ["El Menzah"]
+        },
+        {
+          "name": "El Omrane",
+          "localites": ["El Omrane"]
+        },
+        {
+          "name": "El Omrane supérieur",
+          "localites": ["El Omrane supérieur"]
+        }
+      ]
+    },
+    {
+      "name": "Ariana",
+      "delegations": [
+        {
+          "name": "Soukra",
+          "localites": ["Chotrana", "Raoued"]
+        },
+        {
+          "name": "Ariana Ville",
+          "localites": ["Cité Ennasr", "Cité Ettadhamen"]
+        },
+        {
+          "name": "Ettadhamen",
+          "localites": ["Cité Ibn Khaldoun", "Cité El Ghazala"]
+        }
+      ]
+    },
+    {
+      "name": "Ben Arous",
+      "delegations": [
+        {
+          "name": "Ben Arous",
+          "localites": ["Ben Arous"]
+        },
+        {
+          "name": "El Mourouj",
+          "localites": ["El Mourouj 1", "El Mourouj 2"]
+        },
+        {
+          "name": "Hammam Lif",
+          "localites": ["Hammam Lif"]
+        }
+      ]
+    },
+    {
+      "name": "Manouba",
+      "delegations": [
+        {
+          "name": "Manouba",
+          "localites": ["Manouba"]
+        },
+        {
+          "name": "Douar Hicher",
+          "localites": ["Douar Hicher"]
+        },
+        {
+          "name": "Oued Ellil",
+          "localites": ["Oued Ellil"]
+        }
+      ]
+    },
+    {
+      "name": "Sfax",
+      "delegations": [
+        {
+          "name": "Sfax Ville",
+          "localites": ["Sfax Ville"]
+        },
+        {
+          "name": "Sakiet Ezzit",
+          "localites": ["Sakiet Ezzit"]
+        },
+        {
+          "name": "Sakiet Eddaïer",
+          "localites": ["Sakiet Eddaïer"]
+        }
+      ]
+    },
+    {
+      "name": "Sousse",
+      "delegations": [
+        {
+          "name": "Sousse Ville",
+          "localites": ["Sousse Ville"]
+        },
+        {
+          "name": "Hammam Sousse",
+          "localites": ["Hammam Sousse"]
+        },
+        {
+          "name": "Akouda",
+          "localites": ["Akouda"]
+        }
+      ]
+    },
+    {
+      "name": "Nabeul",
+      "delegations": [
+        {
+          "name": "Nabeul",
+          "localites": ["Nabeul"]
+        },
+        {
+          "name": "Hammamet",
+          "localites": ["Hammamet"]
+        },
+        {
+          "name": "Korba",
+          "localites": ["Korba"]
+        }
+      ]
+    },
+    {
+      "name": "Kairouan",
+      "delegations": [
+        {
+          "name": "Kairouan",
+          "localites": ["Kairouan"]
+        },
+        {
+          "name": "Chebika",
+          "localites": ["Chebika"]
+        },
+        {
+          "name": "Oueslatia",
+          "localites": ["Oueslatia"]
+        }
+      ]
+    },
+    {
+      "name": "Monastir",
+      "delegations": [
+        {
+          "name": "Monastir",
+          "localites": ["Monastir"]
+        },
+        {
+          "name": "Sahline",
+          "localites": ["Sahline"]
+        },
+        {
+          "name": "Ksibet el Mediouni",
+          "localites": ["Ksibet el Mediouni"]
+        }
+      ]
+    },
+    {
+      "name": "Bizerte",
+      "delegations": [
+        {
+          "name": "Bizerte Nord",
+          "localites": ["Bizerte Nord"]
+        },
+        {
+          "name": "Bizerte Sud",
+          "localites": ["Bizerte Sud"]
+        },
+        {
+          "name": "Menzel Bourguiba",
+          "localites": ["Menzel Bourguiba"]
+        }
+      ]
+    },
+    {
+      "name": "Gabès",
+      "delegations": [
+        {
+          "name": "Gabès Ville",
+          "localites": ["Gabès Ville"]
+        },
+        {
+          "name": "Gabès Sud",
+          "localites": ["Gabès Sud"]
+        },
+        {
+          "name": "Mareth",
+          "localites": ["Mareth"]
+        }
+      ]
+    }
+  ]
+}
