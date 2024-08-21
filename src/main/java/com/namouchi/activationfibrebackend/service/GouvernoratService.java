@@ -1,16 +1,19 @@
 package com.namouchi.activationfibrebackend.service;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.namouchi.activationfibrebackend.model.Delegation;
 import com.namouchi.activationfibrebackend.model.Gouvernorat;
-import com.namouchi.activationfibrebackend.model.GouvernoratWrapper;
+import com.namouchi.activationfibrebackend.repository.DelegationRepository;
 import com.namouchi.activationfibrebackend.repository.GouvernoratRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class GouvernoratService {
@@ -18,23 +21,36 @@ public class GouvernoratService {
     @Autowired
     private GouvernoratRepository gouvernoratRepository;
 
-    @PostConstruct
-    public void loadGouvernoratData() {
-        ObjectMapper objectMapper = new ObjectMapper();
-        InputStream inputStream = getClass().getResourceAsStream("/gouvernorats.json");
+    @Autowired
+    private DelegationRepository delegationRepository;
 
+    @PostConstruct
+    public void init() {
+        ObjectMapper mapper = new ObjectMapper();
         try {
-            GouvernoratWrapper wrapper = objectMapper.readValue(inputStream, GouvernoratWrapper.class);
-            List<Gouvernorat> gouvernorats = wrapper.getGouvernorats();
-            gouvernoratRepository.saveAll(gouvernorats);
-            System.out.println("Gouvernorats data loaded successfully!");
+            // Load JSON file from resources directory
+            Map<String, Object> jsonMap = mapper.readValue(
+                    new ClassPathResource("gouvernorats.json").getInputStream(),
+                    new TypeReference<Map<String, Object>>() {});
+
+            List<Gouvernorat> gouvernorats = mapper.convertValue(
+                    jsonMap.get("gouvernorats"),
+                    new TypeReference<List<Gouvernorat>>() {});
+
+            // Save Gouvernorats and Delegations to the database
+            for (Gouvernorat gouvernorat : gouvernorats) {
+                gouvernoratRepository.save(gouvernorat);
+                for (Delegation delegation : gouvernorat.getDelegations()) {
+                    delegation.setGouvernorat(gouvernorat);
+                    delegationRepository.save(delegation);
+                }
+            }
         } catch (IOException e) {
-            System.out.println("Unable to load gouvernorats data: " + e.getMessage());
-            throw new RuntimeException("Failed to read gouvernorats.json", e);
+            e.printStackTrace();
         }
     }
 
-    public List<Gouvernorat> getGouvernorats() {
+    public List<Gouvernorat> findAll() {
         return gouvernoratRepository.findAll();
     }
 }

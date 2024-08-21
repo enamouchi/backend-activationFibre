@@ -1,4 +1,4 @@
-package com.namouchi.activationfibrebackend.service;
+/**package com.namouchi.activationfibrebackend.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -32,4 +32,4 @@ public class GouvernoratDataLoader {
             System.out.println("Unable to load gouvernorats data: " + e.getMessage());
         }
     }
-}
+}**/

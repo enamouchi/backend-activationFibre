@@ -5,7 +5,7 @@ import java.util.List;
 public class GouvernoratWrapper {
     private List<Gouvernorat> gouvernorats;
 
-    // getters and setters
+    // Getters and setters
     public List<Gouvernorat> getGouvernorats() {
         return gouvernorats;
     }
@@ -13,5 +13,4 @@ public class GouvernoratWrapper {
     public void setGouvernorats(List<Gouvernorat> gouvernorats) {
         this.gouvernorats = gouvernorats;
     }
-
 }

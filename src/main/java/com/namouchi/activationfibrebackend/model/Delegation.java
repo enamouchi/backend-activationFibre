@@ -10,8 +10,12 @@ public class Delegation {
     private Long id;
     private String name;
 
-    @ElementCollection
-    private List<String> localites;
+    @ManyToOne
+    @JoinColumn(name = "gouvernorat_id")
+    private Gouvernorat gouvernorat;
+
+    @OneToMany(mappedBy = "delegation", cascade = CascadeType.ALL)
+    private List<Localite> localites;
 
     public Long getId() {
         return id;
@@ -29,12 +33,19 @@ public class Delegation {
         this.name = name;
     }
 
-    public List<String> getLocalites() {
+    public Gouvernorat getGouvernorat() {
+        return gouvernorat;
+    }
+
+    public void setGouvernorat(Gouvernorat gouvernorat) {
+        this.gouvernorat = gouvernorat;
+    }
+
+    public List<Localite> getLocalites() {
         return localites;
     }
 
-    public void setLocalites(List<String> localites) {
+    public void setLocalites(List<Localite> localites) {
         this.localites = localites;
     }
-// Getters and setters
 }

@@ -1,17 +1,17 @@
 package com.namouchi.activationfibrebackend.model;
 
 import jakarta.persistence.*;
-import java.util.List;
 
 @Entity
-public class Gouvernorat {
+public class Localite {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
 
-    @OneToMany(mappedBy = "gouvernorat", cascade = CascadeType.ALL)
-    private List<Delegation> delegations;
+    @ManyToOne
+    @JoinColumn(name = "delegation_id")
+    private Delegation delegation;
 
     public Long getId() {
         return id;
@@ -29,11 +29,11 @@ public class Gouvernorat {
         this.name = name;
     }
 
-    public List<Delegation> getDelegations() {
-        return delegations;
+    public Delegation getDelegation() {
+        return delegation;
     }
 
-    public void setDelegations(List<Delegation> delegations) {
-        this.delegations = delegations;
+    public void setDelegation(Delegation delegation) {
+        this.delegation = delegation;
     }
 }
