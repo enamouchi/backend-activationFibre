@@ -1,4 +1,4 @@
-package com.namouchi.activationfibrebackend.service;
+/*package com.namouchi.activationfibrebackend.service;
 
 import com.namouchi.activationfibrebackend.model.Delegation;
 import com.namouchi.activationfibrebackend.repository.DelegationRepository;
@@ -16,3 +16,4 @@ public class DelegationService {
         return delegationRepository.findAll();
     }
 }
+*/

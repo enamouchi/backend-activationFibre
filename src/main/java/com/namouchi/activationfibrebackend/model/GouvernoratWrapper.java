@@ -1,4 +1,4 @@
-package com.namouchi.activationfibrebackend.model;
+/*package com.namouchi.activationfibrebackend.model;
 
 import java.util.List;
 
@@ -13,4 +13,5 @@ public class GouvernoratWrapper {
     public void setGouvernorats(List<Gouvernorat> gouvernorats) {
         this.gouvernorats = gouvernorats;
     }
-}
+}*/
+

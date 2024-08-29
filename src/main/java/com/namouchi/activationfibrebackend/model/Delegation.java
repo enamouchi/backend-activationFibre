@@ -1,21 +1,23 @@
-package com.namouchi.activationfibrebackend.model;
+/*package com.namouchi.activationfibrebackend.model;
 
 import jakarta.persistence.*;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Delegation {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
 
     @ManyToOne
     @JoinColumn(name = "gouvernorat_id")
     private Gouvernorat gouvernorat;
 
-    @OneToMany(mappedBy = "delegation", cascade = CascadeType.ALL)
-    private List<Localite> localites;
+    @OneToMany(mappedBy = "delegation", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Localite> localites = new HashSet<>();
+
+    private String name;
 
     public Long getId() {
         return id;
@@ -23,14 +25,6 @@ public class Delegation {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Gouvernorat getGouvernorat() {
@@ -41,11 +35,19 @@ public class Delegation {
         this.gouvernorat = gouvernorat;
     }
 
-    public List<Localite> getLocalites() {
+    public Set<Localite> getLocalites() {
         return localites;
     }
 
-    public void setLocalites(List<Localite> localites) {
+    public void setLocalites(Set<Localite> localites) {
         this.localites = localites;
     }
-}
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}*/

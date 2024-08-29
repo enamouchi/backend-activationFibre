@@ -1,4 +1,4 @@
-package com.namouchi.activationfibrebackend.model;
+/*package com.namouchi.activationfibrebackend.model;
 
 import jakarta.persistence.*;
 
@@ -7,11 +7,12 @@ public class Localite {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
 
     @ManyToOne
     @JoinColumn(name = "delegation_id")
     private Delegation delegation;
+
+    private String name;
 
     public Long getId() {
         return id;
@@ -21,14 +22,6 @@ public class Localite {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public Delegation getDelegation() {
         return delegation;
     }
@@ -36,4 +29,13 @@ public class Localite {
     public void setDelegation(Delegation delegation) {
         this.delegation = delegation;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
+*/

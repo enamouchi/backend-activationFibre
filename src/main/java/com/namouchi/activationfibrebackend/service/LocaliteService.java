@@ -1,4 +1,4 @@
-package com.namouchi.activationfibrebackend.service;
+/*package com.namouchi.activationfibrebackend.service;
 
 import com.namouchi.activationfibrebackend.model.Localite;
 import com.namouchi.activationfibrebackend.repository.LocaliteRepository;
@@ -16,3 +16,4 @@ public class LocaliteService {
         return localiteRepository.findAll();
     }
 }
+*/

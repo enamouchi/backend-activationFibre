@@ -1,18 +1,22 @@
-package com.namouchi.activationfibrebackend.model;
+/*package com.namouchi.activationfibrebackend.model;
 
 import jakarta.persistence.*;
-import java.util.List;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Gouvernorat {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String name;
 
-    @OneToMany(mappedBy = "gouvernorat", cascade = CascadeType.ALL)
-    private List<Delegation> delegations;
+    @OneToMany(mappedBy = "gouvernorat", cascade = CascadeType.ALL, orphanRemoval = true)
+    private Set<Delegation> delegations = new HashSet<>();
 
+    // Constructors, getters, and setters
     public Long getId() {
         return id;
     }
@@ -29,11 +33,11 @@ public class Gouvernorat {
         this.name = name;
     }
 
-    public List<Delegation> getDelegations() {
+    public Set<Delegation> getDelegations() {
         return delegations;
     }
 
-    public void setDelegations(List<Delegation> delegations) {
+    public void setDelegations(Set<Delegation> delegations) {
         this.delegations = delegations;
     }
-}
+}*/

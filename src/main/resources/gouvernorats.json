@@ -1,541 +1,438 @@
-[
-  {
-    "id": 1,
-    "name": "Tunis",
-    "delegations": [
-      {
-        "id": 1,
-        "name": "La Marsa",
-        "localites": ["Gammarth", "Sidi Daoud"]
-      },
-      {
-        "id": 2,
-        "name": "Carthage",
-        "localites": ["Amilcar", "Sidi Bou Said"]
-      },
-      {
-        "id": 3,
-        "name": "Bab El Bhar",
-        "localites": ["Bab El Bhar"]
-      },
-      {
-        "id": 4,
-        "name": "Bab Souika",
-        "localites": ["Bab Souika"]
-      },
-      {
-        "id": 5,
-        "name": "Cité El Khadra",
-        "localites": ["Cité El Khadra"]
-      },
-      {
-        "id": 6,
-        "name": "Djebel Jelloud",
-        "localites": ["Djebel Jelloud"]
-      },
-      {
-        "id": 7,
-        "name": "El Kabaria",
-        "localites": ["El Kabaria"]
-      },
-      {
-        "id": 8,
-        "name": "El Menzah",
-        "localites": ["El Menzah"]
-      },
-      {
-        "id": 9,
-        "name": "El Omrane",
-        "localites": ["El Omrane"]
-      },
-      {
-        "id": 10,
-        "name": "El Omrane supérieur",
-        "localites": ["El Omrane supérieur"]
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "name": "Ariana",
-    "delegations": [
-      {
-        "id": 11,
-        "name": "Soukra",
-        "localites": ["Chotrana", "Raoued"]
-      },
-      {
-        "id": 12,
-        "name": "Ariana Ville",
-        "localites": ["Cité Ennasr", "Cité Ettadhamen"]
-      },
-      {
-        "id": 13,
-        "name": "Ettadhamen",
-        "localites": ["Cité Ibn Khaldoun", "Cité El Ghazala"]
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "name": "Ben Arous",
-    "delegations": [
-      {
-        "id": 14,
-        "name": "Ben Arous",
-        "localites": ["Ben Arous"]
-      },
-      {
-        "id": 15,
-        "name": "El Mourouj",
-        "localites": ["El Mourouj 1", "El Mourouj 2"]
-      },
-      {
-        "id": 16,
-        "name": "Hammam Lif",
-        "localites": ["Hammam Lif"]
-      }
-    ]
-  },
-  {
-    "id": 17,
-    "name": "Manouba",
-    "delegations": [
-      {
-        "id": 17,
-        "name": "Manouba",
-        "localites": ["Manouba"]
-      },
-      {
-        "id": 18,
-        "name": "Douar Hicher",
-        "localites": ["Douar Hicher"]
-      },
-      {
-        "id": 19,
-        "name": "Oued Ellil",
-        "localites": ["Oued Ellil"]
-      }
-    ]
-  },
-  {
-    "id": 20,
-    "name": "Sfax",
-    "delegations": [
-      {
-        "id": 20,
-        "name": "Sfax Ville",
-        "localites": ["Sfax Ville"]
-      },
-      {
-        "id": 21,
-        "name": "Sakiet Ezzit",
-        "localites": ["Sakiet Ezzit"]
-      },
-      {
-        "id": 22,
-        "name": "Sakiet Eddaïer",
-        "localites": ["Sakiet Eddaïer"]
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "name": "Sousse",
-    "delegations": [
-      {
-        "id": 23,
-        "name": "Sousse Ville",
-        "localites": ["Sousse Ville"]
-      },
-      {
-        "id": 24,
-        "name": "Hammam Sousse",
-        "localites": ["Hammam Sousse"]
-      },
-      {
-        "id": 25,
-        "name": "Akouda",
-        "localites": ["Akouda"]
-      }
-    ]
-  },
-  {
-    "id": 26,
-    "name": "Nabeul",
-    "delegations": [
-      {
-        "id": 26,
-        "name": "Nabeul",
-        "localites": ["Nabeul"]
-      },
-      {
-        "id": 27,
-        "name": "Hammamet",
-        "localites": ["Hammamet"]
-      },
-      {
-        "id": 28,
-        "name": "Korba",
-        "localites": ["Korba"]
-      }
-    ]
-  },
-  {
-    "id": 29,
-    "name": "Kairouan",
-    "delegations": [
-      {
-        "id": 29,
-        "name": "Kairouan",
-        "localites": ["Kairouan"]
-      },
-      {
-        "id": 30,
-        "name": "Chebika",
-        "localites": ["Chebika"]
-      },
-      {
-        "id": 31,
-        "name": "Oueslatia",
-        "localites": ["Oueslatia"]
-      }
-    ]
-  },
-  {
-    "id": 32,
-    "name": "Monastir",
-    "delegations": [
-      {
-        "id": 32,
-        "name": "Monastir",
-        "localites": ["Monastir"]
-      },
-      {
-        "id": 33,
-        "name": "Sahline",
-        "localites": ["Sahline"]
-      },
-      {
-        "id": 34,
-        "name": "Ksibet el Mediouni",
-        "localites": ["Ksibet el Mediouni"]
-      }
-    ]
-  },
-  {
-    "id": 35,
-    "name": "Bizerte",
-    "delegations": [
-      {
-        "id": 35,
-        "name": "Bizerte Nord",
-        "localites": ["Bizerte Nord"]
-      },
-      {
-        "id": 36,
-        "name": "Bizerte Sud",
-        "localites": ["Bizerte Sud"]
-      },
-      {
-        "id": 37,
-        "name": "Menzel Bourguiba",
-        "localites": ["Menzel Bourguiba"]
-      }
-    ]
-  },
-  {
-    "id": 38,
-    "name": "Gabès",
-    "delegations": [
-      {
-        "id": 38,
-        "name": "Gabès Ville",
-        "localites": ["Gabès Ville"]
-      },
-      {
-        "id": 39,
-        "name": "Gabès Sud",
-        "localites": ["Gabès Sud"]
-      },
-      {
-        "id": 40,
-        "name": "Mareth",
-        "localites": ["Mareth"]
-      }
-    ]
-  },
-  {
-    "id": 41,
-    "name": "Jendouba",
-    "delegations": [
-      {
-        "id": 41,
-        "name": "Jendouba Nord",
-        "localites": ["Jendouba Nord"]
-      },
-      {
-        "id": 42,
-        "name": "Jendouba Sud",
-        "localites": ["Jendouba Sud"]
-      },
-      {
-        "id": 43,
-        "name": "Oued Meliz",
-        "localites": ["Oued Meliz"]
-      }
-    ]
-  },
-  {
-    "id": 44,
-    "name": "Le Kef",
-    "delegations": [
-      {
-        "id": 44,
-        "name": "Le Kef Ville",
-        "localites": ["Le Kef Ville"]
-      },
-      {
-        "id": 45,
-        "name": "Ghardimaou",
-        "localites": ["Ghardimaou"]
-      },
-      {
-        "id": 46,
-        "name": "El Ksour",
-        "localites": ["El Ksour"]
-      }
-    ]
-  },
-  {
-    "id": 47,
-    "name": "Siliana",
-    "delegations": [
-      {
-        "id": 47,
-        "name": "Siliana Ville",
-        "localites": ["Siliana Ville"]
-      },
-      {
-        "id": 48,
-        "name": "Medenine",
-        "localites": ["Medenine"]
-      },
-      {
-        "id": 49,
-        "name": "El Aroussa",
-        "localites": ["El Aroussa"]
-      }
-    ]
-  },
-  {
-    "id": 50,
-    "name": "Sidi Bouzid",
-    "delegations": [
-      {
-        "id": 50,
-        "name": "Sidi Bouzid Ville",
-        "localites": ["Sidi Bouzid Ville"]
-      },
-      {
-        "id": 51,
-        "name": "Meknassy",
-        "localites": ["Meknassy"]
-      },
-      {
-        "id": 52,
-        "name": "Sidi Ali Ben Aoun",
-        "localites": ["Sidi Ali Ben Aoun"]
-      }
-    ]
-  },
-  {
-    "id": 53,
-    "name": "Tozeur",
-    "delegations": [
-      {
-        "id": 53,
-        "name": "Tozeur Ville",
-        "localites": ["Tozeur Ville"]
-      },
-      {
-        "id": 54,
-        "name": "Nefta",
-        "localites": ["Nefta"]
-      },
-      {
-        "id": 55,
-        "name": "Tameghza",
-        "localites": ["Tameghza"]
-      }
-    ]
-  },
-  {
-    "id": 56,
-    "name": "Kébili",
-    "delegations": [
-      {
-        "id": 56,
-        "name": "Kébili Ville",
-        "localites": ["Kébili Ville"]
-      },
-      {
-        "id": 57,
-        "name": "Douz",
-        "localites": ["Douz"]
-      },
-      {
-        "id": 58,
-        "name": "El Faouar",
-        "localites": ["El Faouar"]
-      }
-    ]
-  },
-  {
-    "id": 59,
-    "name": "Medenine",
-    "delegations": [
-      {
-        "id": 59,
-        "name": "Medenine Ville",
-        "localites": ["Medenine Ville"]
-      },
-      {
-        "id": 60,
-        "name": "Ben Guerdane",
-        "localites": ["Ben Guerdane"]
-      },
-      {
-        "id": 61,
-        "name": "Zarzis",
-        "localites": ["Zarzis"]
-      }
-    ]
-  },
-  {
-    "id": 62,
-    "name": "Gafsa",
-    "delegations": [
-      {
-        "id": 62,
-        "name": "Gafsa Ville",
-        "localites": ["Gafsa Ville"]
-      },
-      {
-        "id": 63,
-        "name": "Mdhila",
-        "localites": ["Mdhila"]
-      },
-      {
-        "id": 64,
-        "name": "El Guettar",
-        "localites": ["El Guettar"]
-      }
-    ]
-  },
-  {
-    "id": 65,
-    "name": "Sidi Bouzid",
-    "delegations": [
-      {
-        "id": 65,
-        "name": "Sidi Bouzid Ville",
-        "localites": ["Sidi Bouzid Ville"]
-      },
-      {
-        "id": 66,
-        "name": "Meknassy",
-        "localites": ["Meknassy"]
-      },
-      {
-        "id": 67,
-        "name": "Sidi Ali Ben Aoun",
-        "localites": ["Sidi Ali Ben Aoun"]
-      }
-    ]
-  },
-  {
-    "id": 68,
-    "name": "Béja",
-    "delegations": [
-      {
-        "id": 68,
-        "name": "Béja Ville",
-        "localites": ["Béja Ville"]
-      },
-      {
-        "id": 69,
-        "name": "Teboursouk",
-        "localites": ["Teboursouk"]
-      },
-      {
-        "id": 70,
-        "name": "Nadhour",
-        "localites": ["Nadhour"]
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "name": "Jendouba",
-    "delegations": [
-      {
-        "id": 71,
-        "name": "Jendouba Nord",
-        "localites": ["Jendouba Nord"]
-      },
-      {
-        "id": 72,
-        "name": "Jendouba Sud",
-        "localites": ["Jendouba Sud"]
-      },
-      {
-        "id": 73,
-        "name": "Oued Meliz",
-        "localites": ["Oued Meliz"]
-      }
-    ]
-  },
-  {
-    "id": 74,
-    "name": "Kasserine",
-    "delegations": [
-      {
-        "id": 74,
-        "name": "Kasserine Ville",
-        "localites": ["Kasserine Ville"]
-      },
-      {
-        "id": 75,
-        "name": "Thala",
-        "localites": ["Thala"]
-      },
-      {
-        "id": 76,
-        "name": "Hassi El Ferid",
-        "localites": ["Hassi El Ferid"]
-      }
-    ]
-  },
-  {
-    "id": 77,
-    "name": "Zaghouan",
-    "delegations": [
-      {
-        "id": 77,
-        "name": "Zaghouan Ville",
-        "localites": ["Zaghouan Ville"]
-      },
-      {
-        "id": 78,
-        "name": "El Fahs",
-        "localites": ["El Fahs"]
-      },
-      {
-        "id": 79,
-        "name": "Nadhour",
-        "localites": ["Nadhour"]
-      }
-    ]
-  }
-]
+{
+  "gouvernorats": [
+    {
+      "id": 1,
+      "name": "Tunis",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Carthage",
+          "localites": ["Carthage", "Sidi Bou Said"]
+        },
+        {
+          "id": 2,
+          "name": "La Médina",
+          "localites": ["Bab Jedid", "Halfaouine"]
+        },
+        {
+          "id": 3,
+          "name": "Bab Bhar",
+          "localites": ["Bab Bhar", "Hrairia"]
+        },
+        {
+          "id": 4,
+          "name": "Bab Souika",
+          "localites": ["Bab Souika", "Sidi El Béchir"]
+        },
+        {
+          "id": 5,
+          "name": "Omrane",
+          "localites": ["Omrane", "Djebel Jelloud"]
+        },
+        {
+          "id": 6,
+          "name": "El Menzah",
+          "localites": ["El Menzah", "Cité Alkhadhra"]
+        },
+        {
+          "id": 7,
+          "name": "Bardo",
+          "localites": ["Bardo", "Séjoumi"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ariana",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Ariana Ville",
+          "localites": ["Ariana", "El Menzah"]
+        },
+        {
+          "id": 2,
+          "name": "La Soukra",
+          "localites": ["La Soukra", "Raoued"]
+        },
+        {
+          "id": 3,
+          "name": "Kalâat Andalous",
+          "localites": ["Kalâat Andalous", "Sidi Thabet"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Manouba",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Manouba",
+          "localites": ["Manouba", "Douar Hicher"]
+        },
+        {
+          "id": 2,
+          "name": "Tebourba",
+          "localites": ["Tebourba", "Battan"]
+        },
+        {
+          "id": 3,
+          "name": "Mornaguia",
+          "localites": ["Mornaguia", "Borj Amri"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ben Arous",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Ben Arous",
+          "localites": ["Ben Arous", "Mourouj"]
+        },
+        {
+          "id": 2,
+          "name": "Hammam Lif",
+          "localites": ["Hammam Lif", "Hammam Chatt"]
+        },
+        {
+          "id": 3,
+          "name": "Ezzahra",
+          "localites": ["Ezzahra", "M'hamdia"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Nabeul",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Nabeul",
+          "localites": ["Nabeul", "Hammamet"]
+        },
+        {
+          "id": 2,
+          "name": "Dar Chaâbane Elfehri",
+          "localites": ["Dar Chaâbane Elfehri", "Korba"]
+        },
+        {
+          "id": 3,
+          "name": "Kelibia",
+          "localites": ["Kelibia", "Menzel Bouzelfa"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bizerte",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Bizerte Nord",
+          "localites": ["Bizerte Nord", "Jarzouna"]
+        },
+        {
+          "id": 2,
+          "name": "Bizerte Sud",
+          "localites": ["Bizerte Sud", "Sejnane"]
+        },
+        {
+          "id": 3,
+          "name": "Mateur",
+          "localites": ["Mateur", "Ghezala"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Zaghouan",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Zaghouan",
+          "localites": ["Zaghouan", "Bir Mecharga"]
+        },
+        {
+          "id": 2,
+          "name": "Fahs",
+          "localites": ["Fahs", "Nadhour"]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Sousse",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Sousse Ville",
+          "localites": ["Sousse Ville", "Zaouia Ksiba Thrayat"]
+        },
+        {
+          "id": 2,
+          "name": "Hammam Sousse",
+          "localites": ["Hammam Sousse", "Akouda"]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Monastir",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Monastir",
+          "localites": ["Monastir", "Ouerdanine"]
+        },
+        {
+          "id": 2,
+          "name": "Moknine",
+          "localites": ["Moknine", "Sahline"]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Mahdia",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Mahdia",
+          "localites": ["Mahdia", "Boumerdes"]
+        },
+        {
+          "id": 2,
+          "name": "El Jem",
+          "localites": ["El Jem", "Chebba"]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Sfax",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Sfax Ville",
+          "localites": ["Sfax Ville", "Sfax Ouest"]
+        },
+        {
+          "id": 2,
+          "name": "Kerkennah",
+          "localites": ["Kerkennah", "Menzel Chaker"]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Béja",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Béja Nord",
+          "localites": ["Béja Nord", "Amdoun"]
+        },
+        {
+          "id": 2,
+          "name": "Nefza",
+          "localites": ["Nefza", "Teboursouk"]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Jendouba",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Jendouba",
+          "localites": ["Jendouba", "Tabarka"]
+        },
+        {
+          "id": 2,
+          "name": "Boussalem",
+          "localites": ["Boussalem", "Ain Drahem"]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Kef",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Kef Ouest",
+          "localites": ["Kef Ouest", "Kef Est"]
+        },
+        {
+          "id": 2,
+          "name": "Sakiet Sidi Youssef",
+          "localites": ["Sakiet Sidi Youssef", "Tejerouine"]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Siliana",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Siliana Nord",
+          "localites": ["Siliana Nord", "Bouarada"]
+        },
+        {
+          "id": 2,
+          "name": "Gâafour",
+          "localites": ["Gâafour", "El Aroussa"]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Kairouan",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Kairouan Nord",
+          "localites": ["Kairouan Nord", "Kairouan Sud"]
+        },
+        {
+          "id": 2,
+          "name": "Chebika",
+          "localites": ["Chebika", "Sebikha"]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Sidi Bouzid",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Sidi Bouzid Ouest",
+          "localites": ["Sidi Bouzid Ouest", "Sidi Bouzid Est"]
+        },
+        {
+          "id": 2,
+          "name": "Jelma",
+          "localites": ["Jelma", "Sabbalet Ouled Askar"]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Kasserine",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Kasserine Nord",
+          "localites": ["Kasserine Nord", "Kasserine Sud"]
+        },
+        {
+          "id": 2,
+          "name": "Azzouhour",
+          "localites": ["Azzouhour", "Hassi Ferid"]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Gabès",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Gabès Ville",
+          "localites": ["Gabès Ville", "Gabès Ouest"]
+        },
+        {
+          "id": 2,
+          "name": "Mareth",
+          "localites": ["Mareth", "Ghannouch"]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Medenine",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Mednine Nord",
+          "localites": ["Mednine Nord", "Mednine Sud"]
+        },
+        {
+          "id": 2,
+          "name": "Jerba",
+          "localites": ["Jerba Houmet Souk", "Jerba Midoun"]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Gafsa",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Gafsa Nord",
+          "localites": ["Gafsa Nord", "Gafsa Sud"]
+        },
+        {
+          "id": 2,
+          "name": "Moulares",
+          "localites": ["Moulares", "Redyef"]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Tozeur",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Tozeur",
+          "localites": ["Tozeur", "Nefta"]
+        },
+        {
+          "id": 2,
+          "name": "Degueche",
+          "localites": ["Degueche", "Tameghza"]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Tataouine",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Tataouine Nord",
+          "localites": ["Tataouine Nord", "Tataouine Sud"]
+        },
+        {
+          "id": 2,
+          "name": "Ghomrassen",
+          "localites": ["Ghomrassen", "Dhehiba"]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Kébili",
+      "delegations": [
+        {
+          "id": 1,
+          "name": "Kébili Nord",
+          "localites": ["Kébili Nord", "Kébili Sud"]
+        },
+        {
+          "id": 2,
+          "name": "Douz",
+          "localites": ["Douz nord", "Douz sud"]
+        }
+      ]
+    }
+  ]
+}
