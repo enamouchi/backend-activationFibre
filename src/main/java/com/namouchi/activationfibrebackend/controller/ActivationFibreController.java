@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Base64;
 import java.util.List;
 import java.util.Map;
 
@@ -30,7 +31,10 @@ public class ActivationFibreController {
 
     @PostMapping("/step2")
     public ResponseEntity<ActivationFibre> saveStep2(@RequestParam Long id, @RequestParam String signatureClient, @RequestParam String signatureAgent) {
-        ActivationFibre updatedEntity = activationFibreService.saveStep2(id, signatureClient, signatureAgent);
+        String base64SignatureClient = signatureClient.isEmpty() ? "" : Base64.getEncoder().encodeToString(signatureClient.getBytes());
+        String base64SignatureAgent = signatureAgent.isEmpty() ? "" : Base64.getEncoder().encodeToString(signatureAgent.getBytes());
+
+        ActivationFibre updatedEntity = activationFibreService.saveStep2(id, base64SignatureClient, base64SignatureAgent);
         return ResponseEntity.ok(updatedEntity);
     }
 
